@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+body{
+     background-color: #f8f5ed;
+     font-size: large;
+     letter-spacing: 1.5px;
+     white-space: initial;
+  }
+  
+.fondo{
+    display: flex;
+    position: relative;
+  }
+  
+.fondo .menu{
+    width: 400px;
+    height: 100%;
+    background: #f2eadb;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+.fondo .contenido{
+    width: 100%;
+    margin-left: 430px;
+    margin-top: 60px;
+  }  
+
+.imagen{
+    border-radius: 100px;
+    border: solid white;
+    display: block;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.imagen:hover{
+transform: scale(1.12);
+}
+
+.Text{
+    font: 28px;
+    color: black;
+}
+
+.Link{
+    padding: 14.08px 17.6px 12.08px 0px;
+    letter-spacing: 1px;
+    font-size: large;
+    color: #5087a9;
+}
+
+.Link:hover{
+    color: darkblue;
+    font-size: medium;
+    text-align: center;
+}
+
+.textoimagen{
+    text-align: center;
+    color: lightcoral;
+    text-shadow: 3px 3px rosybrown;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.Letters {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  color: rgb(53, 16, 29);
+}
+
+.uwu {
+  color: rgb(91, 91, 238)125, 125, 228);
+  font-family: Georgia;
+  font-size: 20px;
+}
