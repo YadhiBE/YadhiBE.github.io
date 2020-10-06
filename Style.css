@@ -63,6 +63,22 @@ transform: scale(1.12);
     text-align: center;
 }
 
+.Link2{
+  padding: 8.08px 8.6px 8.08px 8px;
+  letter-spacing: 1px;
+  font-size: large;
+  color: #ffffff;
+  background-color: #5087a9;
+  border-radius: 100px;
+}
+
+.Link2:hover{
+  color: #5087a9;
+  background-color: #ffffff;
+}
+
+
+
 .textoimagen{
     text-align: center;
     color: lightcoral;
@@ -94,7 +110,7 @@ transform: scale(1.12);
 }
 
 .uwu {
-  color: rgb(91, 91, 238)125, 125, 228);
+  color: rgb(84, 84, 224);
   font-family: Georgia;
   font-size: 20px;
 }
